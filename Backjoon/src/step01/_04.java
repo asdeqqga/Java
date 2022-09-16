@@ -1,6 +1,6 @@
 package step01;
 
-import java.util.*;
+import java.util.Scanner;
 
 /*
  * 날짜 : 2022/09/07
