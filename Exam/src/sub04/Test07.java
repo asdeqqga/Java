@@ -12,10 +12,13 @@ public class Test07 {
 	public static void main(String[] args) {
 		
 		// 60 ~ 100 사이 임의의 수 10개를 더하므로 결과값이 항상 다름
-		printlist(createList());
+		printLis(createList());
 	}
 	
-	public static void printLis(List<Intger> scoreList) {
+		
+	
+
+	public static void printLis(List<Integer> scoreList) {
 		
 		int total = 0;
 		int size = scoreList.size();

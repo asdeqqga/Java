@@ -22,11 +22,15 @@ public class Test02 {
 		int find = sc.nextInt();
 		
 		try {
-			searchArray(find,arr);
+			try {
+				searchArray(find,arr);
+			} catch (NotFoundException e) {
+				e.printStackTrace();
+			}
 			System.out.println("해당하는 숫자 찾음!!!");
 			
 		}catch (ClassCastException e) {
-			System.out.println e.egtMessage());
+			System.out.println (e.getMessage());
 		}finally {
 			sc.close();
 		}

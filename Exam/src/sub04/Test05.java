@@ -13,7 +13,7 @@ public class Test05 {
 				
 		int total = 0;
 		
-		for(int i=0 ; i<scores.lngth ; i++) {
+		for(int i=0 ; i<scores.length ; i++) {
 			
 			total += Integer.parseInt(scores[i]);
 					
