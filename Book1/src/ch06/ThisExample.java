@@ -28,6 +28,5 @@ public class ThisExmaple {
 		System.out.println(bDay);
 		bDay.printThis();
 		
-	}
-	
+  }
 }

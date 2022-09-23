@@ -8,7 +8,7 @@ package ch02;
 public class p53 {
 
 	public static void main(String[] args) {
-	char ch1 ='A';
+	char ch1 = 'A';
 	System.out.println(ch1);      //문자 출력
 	System.out.println((int)ch1); //문자에 해당하는 정수 값	(아스키 코드 값) 출력
 

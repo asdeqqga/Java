@@ -3,7 +3,7 @@ package ch07;
 /*
  * 날짜 : 2022/09/02
  * 이름 : 라성준
- * 내용 : Suent 클래스 구현하기
+ * 내용 : Subject 클래스 구현하기
  * P228
  */
 public class Subject {

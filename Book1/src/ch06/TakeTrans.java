@@ -18,7 +18,7 @@ public class TakeTrans {
 		bus100.showInfo();
 		
 		Subway subwayGreen = new Subway("2호선");
-		studentTomas.takeSubway(subwayGreen);
+		sutdentTomas.takeSubway(subwayGreen);
 		studentTomas.showInfo();
 		subwayGreen.showInfo();
 	}

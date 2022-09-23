@@ -9,6 +9,7 @@ package ch06;
 
 public class Subway {
 	String lineNumber;
+	int passengerCount;
 	int money;
 	
 	public Subway(String lineNumber) {
@@ -18,11 +19,11 @@ public class Subway {
 	
 	public void take(int money) {
 		this.money += money; //수입 증가
-		passengercount++;    //승객 수 증가
+		passengerCount++;    //승객 수 증가
 	}
 	
 	public void showInfo() {
-		System.out.println(lineNumber + "의 승객은" + passengercount + "명이고, 수입은" + money + "입니다.");
+		System.out.println(lineNumber + "의 승객은" + passengerCount + "명이고, 수입은" + money + "입니다.");
 	}
 
 }

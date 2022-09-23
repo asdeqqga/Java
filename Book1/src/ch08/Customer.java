@@ -10,7 +10,7 @@ package ch08;
 public class Customer {
 	private int customerID;
 	private String customerName;
-	private String customerGrade;
+	public String customerGrade;
 	int bonusPoint;
 	double bonusRatio;
 	
@@ -28,6 +28,21 @@ public class Customer {
 	
 	public String showCustomerInfo() {
 		return customerName + " 님의 등급은 " + customerGrade + "이며 , 보너스 포인트는" + bonusPoint + "입니다.";
+		
+	}
+
+	public void setCustomerID(String string) {
+		
+		
+	}
+
+	public void setCustomerName(String string) {
+		
+		
+	}
+
+	public void setCustomerName(int i) {
+		
 		
 	}
 	

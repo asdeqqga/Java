@@ -16,7 +16,7 @@ public class Student {
 	String studentName;
 	ArrayList<Subject> subjectList;  // ArrayList 선언하기
 
-public Student(int studnetID, String studentName,) {
+public Student(int studnetID, String studentName) {
 	this.studentID = studnetID;
 	this.studentName = studentName;
 	subjectList = new ArrayList<Subject>();  // ArrayList 생성하기
@@ -25,13 +25,16 @@ public Student(int studnetID, String studentName,) {
 
 public void addSubject(String name, int score) {
 	Subject subject = new Subject();  // Subject 생성하기
-	Subject.setName(name);            // 과목 이름 추가하기
-	Subject.setScorePoint(score);     // 점수 추가하기
-	SubjectList.add(subject);         // 배열에 저장하기
+	subject.setName(name);            // 과목 이름 추가하기
+	subject.setScorePoint(score);     // 점수 추가하기
+	subjectList.add(subject);         // 배열에 저장하기
 }
 
 public void showStudentInfo() {
-	// TODO Auto-generated method stub
-	
+	int total = 0;
+	for(Subject s : subjectList) {
+		total += s.getScorePoint();
+		System.out.println("학생" + studnetName + "의 " + s.getName() + "과목 성적은" + s.getScorePoint()+ "입니다.");
+	}
 }
 }

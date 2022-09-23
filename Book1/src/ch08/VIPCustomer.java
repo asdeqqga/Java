@@ -4,6 +4,7 @@ package ch08;
  * 날짜 : 2022/09/19
  * 이름 : 라성준
  * 내용 : VIPCunstmoer 클래스 구현하기
+ * P237
  */
 public class VIPCustomer extends Customer {
 	private int agenID; // VIP 고객 상담원 아이디
@@ -17,6 +18,11 @@ public class VIPCustomer extends Customer {
 	
 	public int getAgentID() {
 		return agentID;
+		
+	}
+
+	public void setCustomerID(int i) {
+		
 		
 	}
 }

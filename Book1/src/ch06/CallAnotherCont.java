@@ -21,21 +21,21 @@ class Person {
 	}
 	
 	Person returnItSelf() {
-		return this; //this 반환
+		return this; // this 반환
 	}
 
 }
 
-   public class callAnotherConst {
+   public class CallAnotherCont {
 	public static void main(String[] args) {
 		
 			Person noName = new Person();
 			System.out.println(noName.name);
 			System.out.println(noName.age);
 			
-			Person p = ((Person) noName).returnItSelf(); //this 값을 클래스 변수에 대입
-			System.out.println(p);			  //noName.returnltSelf()의 반환 값 출력	
-			System.out.println(noName);       //참조 변수 출력
+			Person p = noName.returnItSelf(); //this 값을 클래스 변수에 대입
+			System.out.println(p);			             //noName.returnltSelf()의 반환 값 출력	
+			System.out.println(noName);       	         //참조 변수 출력
 		
 	}
 }

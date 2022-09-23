@@ -15,5 +15,6 @@ public class p55 {
 	System.out.println((char)a);
 	System.out.println((char)b);
 	System.out.println(a2);
+	
 }
 }
