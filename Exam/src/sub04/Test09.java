@@ -8,7 +8,7 @@ import java.util.List;
  * 이름 : 라성준
  * 내용 : 객체 리스트 연습문제
  */
-public class Member {
+class Member {
 	String id;
 	String name;
 	int age;
@@ -17,9 +17,9 @@ public class Member {
 		this.id = id;
 		this.name = name;
 		this.age = age;
-		
 	}
 	
+	@Override
 	public String toString() {
 		return id+","+name+","+age;
 	}
@@ -28,9 +28,9 @@ public class Member {
 public class Test09 {
 	public static void main(String[] args) {
 		
-		Member m1 = new Member("hong", "홍길동",30);
-		Member m2 = new Member("lee", "이순신",40);
-		Member m3 = new Member("kim", "김유신",50);
+		Member m1 = new Member("hong", "홍길동", 30);
+		Member m2 = new Member("lee", "이순신", 40);
+		Member m3 = new Member("kim", "김유신", 50);
 		
 		List<Member> memberList = new ArrayList<>();
 		memberList.add(m1);

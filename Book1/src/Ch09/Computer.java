@@ -7,8 +7,8 @@ package Ch09;
  * P283
  */
 public abstract class Computer {
-	public abstract void display1();
-	public abstract void typing1();
+	public abstract void display ();
+	public abstract void typing ();
 	public void turnOn() {
 		System.out.println("전원을 켭니다.");
 		
@@ -18,15 +18,4 @@ public abstract class Computer {
 		System.out.println("전원을 끕니다.");
 	}
 
-	
-
-	public void display() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void typing() {
-		// TODO Auto-generated method stub
-		
-	}
 }

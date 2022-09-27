@@ -13,15 +13,5 @@ public class MyNoteBook extends NoteBook {
 		System.out.println("MyNoteBook typing()");
 	}
 
-	@Override
-	public void display1() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void typing1() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 }

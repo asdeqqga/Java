@@ -15,9 +15,9 @@ public class Test10 {
 		
 		List<Apple> list1 = new ArrayList<>();
 		list1.add(new Apple("파주", 3000));
-	    list1.add(new Apple("이천", 3000));
+		list1.add(new Apple("이천", 3000));
 		list1.add(new Apple("수원", 3000));
-		 
+		
 		List<Apple> list2 = new ArrayList<>();
 		list2.add(new Apple("청주", 3000));
 		list2.add(new Apple("충주", 3000));
@@ -31,7 +31,7 @@ public class Test10 {
 		Map<String, List<Apple>> map = new HashMap<>();
 		map.put("gyeonggi", list1);
 		map.put("chungbuk", list2);
-		map.put("gyungname", list3);
+		map.put("gyungnam", list3);
 		
 		// 수원 사과 출력
 		List<Apple> list = map.get("gyeonggi");
@@ -42,6 +42,6 @@ public class Test10 {
 		map.get("chungbuk").get(1).show();
 		
 		// 밀양 사과 출력
-		map.get("gyungnam").get(1).show();
+		map.get("gyungnam").get(0).show();
 	}
 }
