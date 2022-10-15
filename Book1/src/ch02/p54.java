@@ -3,7 +3,6 @@ package Ch02;
  * 날짜 : 2022/08/17
  * 이름 : 라성준
  * 내용 : 문자형 연습
- * 
  */
 public class p54 {
 	public static void main(String[] args) {
