@@ -16,11 +16,11 @@ class Person{
 			
 		Person(String name, int age){
 			this.name = name;
-			this.age = age;
+			this.age = age; 
 		}
 		
 		Person returnItSlef() {
-			return this;
+			return this;	// this 반환
 		}		
 	}	
 
@@ -30,5 +30,8 @@ class Person{
 		System.out.println(noName.name);
 		System.out.println(noName.age);
 		
+		Person p = noName.returnItSlef();	 //this 값을 클래스 변수에 대입
+		System.out.println(p);				 //noName.returnltSelf()의 반환 값 출력	
+		System.out.println(noName);			 //참조 변수 출력
 	}		
 }
