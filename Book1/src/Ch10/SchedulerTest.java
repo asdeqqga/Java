@@ -1,17 +1,12 @@
 package Ch10;
 
 import java.io.IOException;
-
-
-
 /*
  * 날짜 : 2022/10/22
  * 이름 : 라성준
  * 내용 : 입력 문자에 따라 배분 정책 수행하기
  * P324
  */
-
-
 public class SchedulerTest {
 	public static void main(String[] args) throws IOException {
 		System.out.println("전화 상담 할당 방식을 선택하세요.");
@@ -24,11 +19,14 @@ public class SchedulerTest {
 		
 		if(ch == 'R' || ch == 'r') {
 			scheduler = new RoundRobin();
-		} else if (ch == 'L' || ch == 'l') {
+		} 
+		else if (ch == 'L' || ch == 'l') {
 			scheduler = new LeastJob();
-		} else if (ch == 'P' || ch == 'p') {
+		} 
+		else if (ch == 'P' || ch == 'p') {
 			scheduler = new PriorityAllocation();
-		} else {
+		} 
+		else {
 			System.out.println("지원되지 않는 기능입니다.");
 			return;
 		}

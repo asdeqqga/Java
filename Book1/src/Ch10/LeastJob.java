@@ -3,7 +3,7 @@ package Ch10;
  * 날짜 : 2022/10/22
  * 이름 : 라성준
  * 내용 : 짧은 대기열 먼저 배분하기
- * 
+ * P323
  */
 public class LeastJob implements Scheduler {
 	@Override

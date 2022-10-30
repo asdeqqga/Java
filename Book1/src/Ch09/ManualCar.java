@@ -1,5 +1,10 @@
 package Ch09;
-
+/*
+ * 날짜 : 2022/09/27
+ * 이름 : 라성준
+ * 내용 : 추상 클래스와 템플릿 메서드
+ * P293
+ */
 public class ManualCar extends Car {
 	
 	
